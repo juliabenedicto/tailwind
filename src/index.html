@@ -1,21 +1,160 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
+<html lang="ca">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <!-- do not remove this line! -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Benesfit</title>
+    <meta name="description" content="Entrenament personal per a adults i gent gran.">
+</head>
+
+<body class=" text-black font-body">
+
+    <header class="fixed-top bg-white py-2">
+        <div class="container">
+
+            <div class="grid grid-rows-1 md:justify-between items-center py-3">
+                <div class="col-12 col-md-4 flex justify-center md:justify-start md:pl-16">
+                    <a href="index.html" class="logo text-5xl md:text-start">Benesfit</a>
+                </div>
+
+                <div class="col-12 col-md-8">
+                    <nav>
+                        <ul class="nav justify-center md:justify-end items-center">
+                            <li>
+                                <a class="nav-link active" href="index.html">Inici</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="team.html">Equip</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Plans</a>
+                            </li>
+                            <li>
+                                <a class="nav-link btn-outline-primary" href="#">Contacte</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="container py-5"></div>
+
+
+    <div class="message">
+        Ho sentim, sembla que el teu navegador no suporta CSS Grid. 😅
+    </div>
+    <section class="section pt-5 pt-md-0 mb-3">
+        <h1 class="page-title">Quina és la teva motivació?</h1>
+        <div class="grid">
+
+            <div class="item">
+                <div class="item__details">
+                    "Posar-me en forma"
+                </div>
+            </div>
+            <div class="item item--large">
+                <div class="item__details">
+                    "No perdre movilitat"
+                </div>
+            </div>
+            <div class="item item--medium">
+                <div class="item__details">
+                    "Passar-m'ho bé"
+                </div>
+            </div>
+            <div class="item item--large">
+                <div class="item__details">
+                    "fer esport a l'aire lliure"
+                </div>
+            </div>
+            <div class="item item--full">
+                <div class="item__details">
+                    "millorar el meu rendiment físic"
+                </div>
+            </div>
+            <div class="item item--medium">
+                <div class="item__details">
+                    "equilibrar cos i ment"
+                </div>
+            </div>
+            <div class="item item--large">
+                <div class="item__details">
+                    "ser més competitives"
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__details">
+                    "compartir temps amb amics"
+                </div>
+            </div>
+            <div class="item item--medium">
+                <div class="item__details">
+                    "millorar la meva força"
+                </div>
+            </div>
+            <div class="item item--large">
+                <div class="item__details">
+                    "aportar més al meu equip"
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__details">
+                    "assolir els objectius que em proposi"
+                </div>
+            </div>
+            <div class="item item--medium">
+                <div class="item__details">
+                    "millorar l'ambient d'equip"
+                </div>
+            </div>
+            <div class="item item--medium">
+                <div class="item__details">
+                    "fer esport amb la meva parella"
+                </div>
+            </div>
+            <div class="item item--large">
+                <div class="item__details">
+                    "gaudir de la natura"
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__details">
+                    "guanyar en flexibilitat"
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr class="featurette-divider">
+
+
+
+        <!-- FOOTER -->
+        <footer class="container pt-3 mt-3">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+
+                    <p class="logo text-center text-2xl md:text-start"> &copy;Benesfit 2021</p>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="text-center text-md-end"><a href="#">Contacte</a> &middot; <a href="https://instagram.com/benesfit/">Instagram</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+</body>
+
 </html>
